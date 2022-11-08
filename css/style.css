@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background:  #252e30;
+
+}
+/*Common-Tag*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/*Common Tag End*/
+
+
+
+/*Navigation Started*/
+.focallogo{
+    width: 10%;
+}
+.navmenu{
+    width: 90%;
+}
+/*MENU*/
+.focallogo img{
+    display: block;
+}
+.navmenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+}
+ul li a{
+text-transform: uppercase;
+font-size: 16px;
+font-weight: 700;
+display: inline-block;
+padding: 29px 12px;
+color: white;
+transition: .6s;
+
+}
+.navmenu ul li:hover a{
+   color: #2ecc71;
+}
+/*MENU END*/
+
+/*Navigation End*/
+
+
+
+
+/*banner start*/
+#banner{
+    background-image: url(../image/banner.jpg);
+    height: 1001px;
+    background-position: center;
+    background-size: cover;
+}
+#banner .container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+#banner .banner-content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    border-top: solid white;
+    border-bottom: solid white;
+    margin-bottom: 53px;
+    text-transform: uppercase;
+    
+}
+#banner .banner-content a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: solid white;
+    padding: 21px 15px;
+    text-transform: uppercase  ;
+}
+/*banner end*/
+
+
+
+ /*Three-Div start*/
+
+#main .container .item{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-top: 98px;
+    margin-bottom: 96px;
+}
+    
+    
+   
+    #main .subitem h2{
+    color: #566366;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+    }
+    
+    
+    #main .subitem h6{
+    color: #919191;
+    font-weight: 400;
+    font-size: 18px;   
+
+}
+/*Three div end*/
+
+
+
+/*About-Start*/
+
+/*About-End*/
+
